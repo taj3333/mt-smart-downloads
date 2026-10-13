@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MT Smart System — تحميل</title>
+<meta name="description" content="نظام إدارة الصيدليات MT Smart: برنامج الكمبيوتر وتطبيق المدير.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0A3A7A; --ink:#101B2B; --muted:#4B5869; --line:#E2E8F0; --ground:#F4F6F8; --card:#FFFFFF; --accent:#0EA5E9; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#E8EEF7; --muted:#A9B6C8; --line:#22324A; --ground:#0B1424; --card:#111E30; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Almarai', 'Segoe UI', Tahoma, sans-serif; background: var(--ground); color: var(--ink); line-height: 1.7; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+  header { background: var(--navy); color: #fff; padding: 56px 0 96px; }
+  .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 20px; }
+  .brand span.mark { width: 44px; height: 44px; border-radius: 12px; background: #fff; color: var(--navy); display: grid; place-items: center; font-family: system-ui, sans-serif; font-size: 15px; }
+  h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.35; margin: 28px 0 10px; }
+  header p { color: #C9D7EC; font-size: 17px; max-width: 640px; margin: 0; }
+  main { margin-top: -60px; padding-bottom: 60px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: 12px; }
+  .card h2 { margin: 0; font-size: 21px; }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  .meta { font-size: 13px; color: var(--muted); }
+  a.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; border-radius: 14px; background: var(--navy); color: #fff; font-weight: 800; text-decoration: none; font-size: 16px; padding: 0 20px; margin-top: auto; }
+  a.btn:hover { background: #072b5c; }
+  @media (prefers-color-scheme: dark) { a.btn { background: #38BDF8; color: #04121F; } a.btn:hover { background: #7DD3FC; } }
+  ol { margin: 0; padding-inline-start: 20px; color: var(--muted); font-size: 15px; }
+  section.steps { margin-top: 18px; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px 0 40px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand"><span class="mark">MT</span> MT Smart System</div>
+    <h1>نظام إدارة الصيدليات</h1>
+    <p>البيع والمخزون والمشتريات والتقارير على الكمبيوتر، ومتابعة الصيدلية من الجوال. يعمل بدون إنترنت، وتبدأ بنسخة تجريبية مجانية.</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <div class="grid">
+      <div class="card">
+        <h2>برنامج الصيدلية — Windows</h2>
+        <p>للكاشير والصيدلي: نقطة البيع، الأصناف والباركود، المخزون والصلاحيات، المشتريات، الورديات والتقارير.</p>
+        <div class="meta">Windows 10 أو 11 (64-bit)</div>
+        <a class="btn" href="https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmartSystem-win-x64.zip">تحميل البرنامج</a>
+      </div>
+      <div class="card">
+        <h2>تطبيق المدير — Android</h2>
+        <p>لصاحب الصيدلية: المبيعات والأرباح لحظيًا، المخزون، العملاء والديون، الخزينة والموظفين، واستخدام الجوال كقارئ باركود.</p>
+        <div class="meta">هواتف Android</div>
+        <a class="btn" href="https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmart-Manager.apk">تحميل التطبيق</a>
+      </div>
+    </div>
+
+    <section class="steps grid">
+      <div class="card">
+        <h2>تثبيت البرنامج</h2>
+        <ol>
+          <li>فك الملف المضغوط في مجلد ثابت، مثل <span dir="ltr">C:\MT Smart</span>.</li>
+          <li>شغّل <span dir="ltr">MTSmartSystem.Windows.exe</span>. إذا ظهر تحذير Windows اختر «مزيد من المعلومات» ثم «تشغيل على أي حال».</li>
+          <li>أنشئ حساب المالك وابدأ النسخة التجريبية (تحتاج إنترنت مرة واحدة).</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h2>تثبيت تطبيق المدير</h2>
+        <ol>
+          <li>حمّل الملف على جوال Android وافتحه.</li>
+          <li>اسمح بالتثبيت من هذا المصدر عندما يطلب الجوال ذلك.</li>
+          <li>سجّل الدخول، ثم اربط برنامج الكمبيوتر بالرمز من الإعدادات.</li>
+        </ol>
+      </div>
+    </section>
+  </div>
+</main>
+<footer>© MT Smart System</footer>
+</body>
+</html>
