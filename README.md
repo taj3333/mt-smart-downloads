@@ -8,18 +8,20 @@
 
 | | التحميل |
 |---|---|
-| **برنامج الصيدلية — Windows 10/11 (64-bit)** | [MTSmartSystem-win-x64.zip](https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmartSystem-win-x64.zip) |
+| **برنامج الصيدلية — Windows 10/11 (64-bit)** | [MTSmartSystem-Setup.exe](https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmartSystem-Setup.exe) (ملف التثبيت) |
+| النسخة المحمولة بدون تثبيت | [MTSmartSystem-win-x64.zip](https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmartSystem-win-x64.zip) |
 | **تطبيق المدير — Android** | [MTSmart-Manager.apk](https://github.com/taj3333/mt-smart-downloads/releases/latest/download/MTSmart-Manager.apk) |
 
 كل الإصدارات وملاحظاتها: [صفحة الإصدارات](https://github.com/taj3333/mt-smart-downloads/releases)
 
 ## تثبيت البرنامج
 
-1. فك الملف المضغوط في مجلد ثابت، مثل `C:\MT Smart`.
-2. شغّل `MTSmartSystem.Windows.exe`. إذا ظهر تحذير Windows اختر «مزيد من المعلومات» ثم «تشغيل على أي حال».
+1. حمّل `MTSmartSystem-Setup.exe` وشغّله. إذا ظهر تحذير Windows اختر «مزيد من المعلومات» ثم «تشغيل على أي حال».
+2. اتبع خطوات التثبيت (لا يحتاج صلاحية مدير)، وسيُنشأ اختصار في قائمة ابدأ وعلى سطح المكتب.
 3. أنشئ حساب المالك وابدأ النسخة التجريبية (تحتاج إنترنت مرة واحدة).
 
-**التحديث:** أغلق البرنامج، ثم فك الملف الجديد في نفس المجلد واستبدل الملفات القديمة. بياناتك محفوظة في مكان منفصل ولا تتأثر.
+**التحديث:** حمّل ملف التثبيت الجديد وشغّله؛ يحدّث البرنامج في مكانه.
+**إلغاء التثبيت:** من إعدادات Windows ← التطبيقات ← MT Smart System. بيانات الصيدلية لا تُحذف.
 
 ## تثبيت تطبيق المدير
 
